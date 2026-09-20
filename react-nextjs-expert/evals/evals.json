@@ -1,0 +1,29 @@
+{
+  "skill_name": "react-nextjs-expert",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Tengo un componente que hace fetch de datos en useEffect. El componente está siendo usado en varias rutas de mi aplicación Next.js 13+. ¿Cuál es la forma más moderna de manejar esto sin useEffect?",
+      "expected_output": "Explicación sobre Server Components, cómo hacer fetch directamente en el servidor, y cuándo usar Client Components. Incluir ejemplo de código.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "¿Cómo debo estructurar mi proyecto Next.js 13+ para manejar layouts, rutas y compartir estado entre componentes? Dame consejos sobre la arquitectura.",
+      "expected_output": "Guía sobre estructura de directorios, uso de layouts vs templates, route groups, y cuando usar Context API vs props drilling.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Este es mi componente: const UserCard = ({ user }) => { return <div>{user.name}</div> }; Quiero agregarlo a mi app Next.js. ¿Qué mejoras debería hacer desde el punto de vista de TypeScript, performance y Next.js 13+?",
+      "expected_output": "Review del componente incluyendo: tipos TypeScript, cuándo usar 'use client', memoización si es necesaria, y best practices.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Tengo un estado compartido entre múltiples componentes profundamente anidados. Mi app está lenta. ¿Cuál es el mejor patrón en React 18 para evitar re-renders innecesarios?",
+      "expected_output": "Explicación sobre Context API, useCallback, useMemo, cuando usarlos y cuándo no. Incluir ejemplo de optimización.",
+      "files": []
+    }
+  ]
+}

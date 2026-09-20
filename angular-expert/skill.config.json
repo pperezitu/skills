@@ -1,0 +1,127 @@
+{
+  "skill": {
+    "id": "angular-expert",
+    "name": "Angular Expert",
+    "version": "1.0.0",
+    "author": "Angular Expert Team",
+    "description": "Expert-level Angular (11+) development with SOLID principles, Clean Code, and Clean Architecture"
+  },
+  "activation": {
+    "automatic": {
+      "enabled": true,
+      "triggers": [
+        "@angular/core",
+        "@angular/common",
+        "@angular/platform-browser",
+        ".component.ts",
+        "angular.json"
+      ]
+    },
+    "manual": {
+      "enabled": true,
+      "phrases": [
+        "angular",
+        "component",
+        "service",
+        "pipe",
+        "guard",
+        "SOLID",
+        "clean architecture",
+        "Angular expert"
+      ]
+    }
+  },
+  "capabilities": {
+    "code_generation": {
+      "components": true,
+      "services": true,
+      "pipes": true,
+      "guards": true,
+      "directives": true,
+      "interceptors": true
+    },
+    "testing": {
+      "jasmine": true,
+      "jest": true,
+      "unit_tests": true,
+      "integration_concepts": true
+    },
+    "patterns": {
+      "solid_principles": true,
+      "clean_code": true,
+      "clean_architecture": true,
+      "reactive_programming": true,
+      "dependency_injection": true,
+      "state_management": true
+    },
+    "features": {
+      "standalone_components": true,
+      "signals": true,
+      "control_flow_syntax": true,
+      "rxjs_best_practices": true,
+      "typescript_patterns": true,
+      "performance_optimization": true
+    }
+  },
+  "supported_versions": {
+    "angular": {
+      "minimum": "11.0.0",
+      "recommended": "17.0.0"
+    },
+    "typescript": {
+      "minimum": "4.2",
+      "recommended": "5.0"
+    },
+    "node": {
+      "minimum": "14.0.0",
+      "recommended": "18.0.0"
+    }
+  },
+  "preferences": {
+    "ask_before_code_generation": true,
+    "offer_multiple_patterns": true,
+    "auto_detect_project_config": true,
+    "include_comments": "architecture",
+    "token_efficiency": "high",
+    "testing_framework_detection": "automatic",
+    "default_change_detection": "OnPush"
+  },
+  "patterns": {
+    "services": [
+      "standard_http",
+      "reactive_rxjs",
+      "signals_based",
+      "facade_pattern"
+    ],
+    "components": [
+      "traditional_class",
+      "reactive_observable",
+      "standalone_signals"
+    ],
+    "state_management": [
+      "simple_services",
+      "ngrx",
+      "akita",
+      "rxjs_state",
+      "signals"
+    ]
+  },
+  "documentation": {
+    "main": "SKILL.md",
+    "readme": "README.md",
+    "references": [
+      "references/solid-principles.md",
+      "references/common-patterns.md"
+    ],
+    "scripts": [
+      "scripts/detect-angular-config.ts"
+    ]
+  },
+  "behavior": {
+    "never_modify_existing_code": true,
+    "always_ask_before_generating": true,
+    "detect_project_patterns": true,
+    "suggest_best_practices": true,
+    "minimize_token_usage": true
+  }
+}
